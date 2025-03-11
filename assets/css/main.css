@@ -3259,7 +3259,7 @@ textarea {
 }
 .tg-hero-title {
   font-weight: 700;
-  font-size: 64px;
+  font-size: 44px;
   color: var(--tg-common-white);
   border-bottom: 4px solid var(--tg-common-white);
   display: inline-block;
@@ -9810,6 +9810,11 @@ textarea {
   font-size: 15px;
   text-transform: capitalize;
   color: var(--tg-common-black);
+}
+@media (max-width: 1119px){
+  .customizeMargin{
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

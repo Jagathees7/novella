@@ -23,7 +23,7 @@ if ($('.tgmenu__wrap li.menu-item-has-children ul').length) {
 windowOn.on('scroll', function () {
 	var scroll = windowOn.scrollTop();
 	if (scroll < 200) {
-		$("#header-sticky").removeClass("header-sticky");
+		// $("#header-sticky").removeClass("header-sticky");
 	} else {
 		$("#header-sticky").addClass("header-sticky");
 	}
